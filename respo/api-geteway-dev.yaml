@@ -3,7 +3,7 @@ zuul:
   ignoredServices: '*'    #zuul不自动创建路由的规则
   routes:
     api-a:
-      path: /api-a/**
+      path: /api-aa/**
       serviceId: service-ribbon
     api-b:
       path: /api-b/**
