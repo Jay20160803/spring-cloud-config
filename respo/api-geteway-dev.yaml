@@ -12,9 +12,9 @@ zuul:
     api-aaa:
       path: /api-aaa/**
       url: forward:/local
-    #spring-boot:
-    #  path: /spring-boot/**
-    #  serviceId: spring-boot
+    spring-boot:
+      path: /spring-boot/**
+      serviceId: spring-boot
     #spring-boot1:
     #  path: /**
     #  serviceId: spring-boot
