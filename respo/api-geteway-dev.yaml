@@ -8,6 +8,10 @@ zuul:
     api-b:
       path: /api-b/**
       serviceId: service-feign
+    #本地跳转
+    api-aaa:
+      path: /api-aaa/**
+      url: forward:/local
     #spring-boot:
     #  path: /spring-boot/**
     #  serviceId: spring-boot
